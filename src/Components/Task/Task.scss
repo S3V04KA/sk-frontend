@@ -1,0 +1,19 @@
+.task {
+  width: 50%;
+
+  .task-title {
+    width: 33%;
+    font-size: 1.5em;
+  }
+
+  .task-date {
+    width: 33%;
+    font-size: 1.5em;
+  }
+
+  .task-status {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #36B93F;
+  }
+}

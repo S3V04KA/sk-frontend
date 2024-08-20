@@ -4,15 +4,20 @@ import Main from './Pages/Main/Main.tsx'
 import './index.scss'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Welcome from './Pages/Welcome/Welcome.tsx'
+import Project from './Pages/Project/Project.tsx'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/welcome',
     element: <Welcome />,
   },
   {
-    path: '/main',
+    path: '/',
     element: <Main />,
+  },
+  {
+    path: '/project/:id',
+    element: <Project/>
   }
 ])
 
